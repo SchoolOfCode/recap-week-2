@@ -6,7 +6,3 @@ Part 2)
 Part 3)
 - Perform this action on the click of a button (or another event...)
 */
-
-fetch("https://dog.ceo/api/breeds/image/random")
-  .then(res => res.json())
-  .then(d => console.log(d));
